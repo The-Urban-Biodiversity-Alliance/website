@@ -15,6 +15,15 @@ body {
 	padding: 1rem;
 }
 
+img {
+	max-width: 100%;
+}
+
+nav {
+	display: flex;
+	gap: 24px;
+}
+
 .content-container {
 	max-width: 75ch;
 	margin: 0 auto;
@@ -23,6 +32,18 @@ body {
 .content-container p {
 	font-size: 1.25rem;
 	line-height: 1.5;
+}
+
+.events-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	justify-content: center;
+}
+
+.past-event {
+	min-width: 288px;
+	max-width: calc(50% - 24px);
 }
 
 .facebook-join-btn {
